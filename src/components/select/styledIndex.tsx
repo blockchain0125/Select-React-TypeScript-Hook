@@ -112,6 +112,7 @@ export const OptionValue = styled.button`
   align-items: center;
   padding: 12px 8px;
   background: #252525;
+  border-radius: 8px;
 
   color: #ffffff;
   font-family: Gilroy;
