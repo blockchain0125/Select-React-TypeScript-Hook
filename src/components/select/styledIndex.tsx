@@ -126,3 +126,28 @@ export const OptionValue = styled.button`
     background: #f56090;
   }
 `;
+
+export const SelectedOptionValue = styled.button`
+  outline: none;
+  border: none;
+  display: flex;
+  height: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 8px;
+  background: #252525;
+  border-radius: 8px;
+
+  color: #ffffff30;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  cursor: pointer;
+  :hover {
+    background: #f56090;
+  }
+`;
